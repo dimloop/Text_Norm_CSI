@@ -46,7 +46,7 @@ class ContrastiveLoss(nn.Module):
         dissimilar_loss =  y * torch.pow(torch.clamp(self.margin - distance, min=0.0), 2)
 
         # mean loss across the batch
-        loss = torch.mean(similar_loss + dissimilar_loss) / 2.0
+        loss = torch.mean(similar_loss + dissimilar_loss) 
 
         return loss
     
