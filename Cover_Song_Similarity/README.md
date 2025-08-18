@@ -99,8 +99,7 @@ The hybrid shows a small but consistent improvement in ranking (AUC) and a modes
 
 ## References
 - Da-TACOS dataset: <https://github.com/MTG/da-tacos>
-- Jullien et al., *Cover Song Identification with Siamese Networks*, 2020.  
-- Serrano & Bellogín, *Siamese neural networks in recommendation*, NCA 2023. <https://doi.org/10.1007/s00521-023-08610-0>
+
 
 
 
